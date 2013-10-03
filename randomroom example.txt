@@ -1,0 +1,60 @@
+if (room=room_transfer)
+{
+    sleep(0)
+    global.lnum=1
+}
+randomRoom = ceil(1+random(3))
+if (global.lnum=1)
+{
+    if randomRoom=1
+        {
+            room_goto(room11)
+            global.lplay+=1
+        }
+    if randomRoom=2
+        {
+            room_goto(room12)
+            global.lplay+=1
+        }
+    if randomRoom=3
+        {
+            room_goto(room13)
+            global.lplay+=1
+        }
+}
+if (global.lnum=2)
+{
+    if randomRoom=1
+        {
+            room_goto(room21)
+            global.lplay+=1
+        }
+    if randomRoom=2
+        {
+            room_goto(room22)
+            global.lplay+=1
+        }
+    if randomRoom=3
+        {
+            room_goto(room23)
+            global.lplay+=1
+        }
+}
+if (global.lnum=3)
+{
+    if randomRoom=1
+        {
+            room_goto(room31)
+            global.lplay+=1
+        }
+    if randomRoom=2
+        {
+            room_goto(room32)
+            global.lplay+=1
+        }
+    if randomRoom=3
+        {
+            room_goto(room33)
+            global.lplay+=1
+        }
+}
