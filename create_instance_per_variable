@@ -1,0 +1,5 @@
+fcollect=0;
+if (fcollect = 5)
+{
+	instance_create(x,y,obj)
+}
